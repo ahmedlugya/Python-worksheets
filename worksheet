@@ -1,0 +1,6 @@
+PASSWORD = "abc123"
+user_pass = input("Enter Password: ")
+while user_pass != PASSWORD:
+    print("Wrong")
+    user_pass = input("Enter password: ")
+print("Correct!")
